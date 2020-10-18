@@ -82,6 +82,9 @@ class Cat(Animal):
     def sleep(self):
         return self.getname + " is sleeping"
 
+     def pup(self):
+        return self.getname + " is puping"
+
 cat1 = Cat("Simba", "Aggora", 2, "Black")
 
 #print(cat1.__dict__)
