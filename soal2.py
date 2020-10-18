@@ -36,7 +36,7 @@ class Animal:
     @getname.getter
     def getname(self):
         return self.__name
-    
+
     @settype.setter
     def settype(self, value):
         self.__type = value
@@ -87,13 +87,13 @@ class Cat(Animal):
 
 cat1 = Cat("Simba", "Aggora", 2, "Black")
 
-#print(cat1.__dict__)
-#print("==============================")
-#cat1.setname = input("Masukkan nama untuk diperbarui = ")
-#cat1.settype = input("Masukkan jenis untuk diperbarui = ")
-#cat1.setage = int(input("Masukkan umur untuk diperbarui = "))
-#cat1.setfurcolor = input("Masukkan warna bulu untuk diperbarui = ")
-#print("==============================")
-#print(cat1.__dict__)
-#print(cat1.walk())
+# print(cat1.__dict__)
+# print("==============================")
+# cat1.setname = input("Masukkan nama untuk diperbarui = ")
+# cat1.settype = input("Masukkan jenis untuk diperbarui = ")
+# cat1.setage = int(input("Masukkan umur untuk diperbarui = "))
+# cat1.setfurcolor = input("Masukkan warna bulu untuk diperbarui = ")
+# print("==============================")
+# print(cat1.__dict__)
+# print(cat1.walk())
 print(cat1.getname)
